@@ -334,6 +334,7 @@ if (is_mac && !is_component_build) {
              "//v8:nwjc",
              "//chrome/test/chromedriver:chromedriver",
              "//third_party/ffmpeg:ffmpeg",
+             "//chrome:chrome_dump_syms",
              "//chrome:nw_sym_archive"
              ]
   }
